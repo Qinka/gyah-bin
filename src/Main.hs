@@ -2,7 +2,7 @@ module Main where
 
 import GiveYouAHead 
 import System.Environment
-
+import System.IO.Extra
 
 main :: IO()
 main = do
