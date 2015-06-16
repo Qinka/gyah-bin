@@ -14,8 +14,11 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+<<<<<<< HEAD
 *.hs~
 *.lkshw
 *.lkshs
 *.cabal~
 *.gitignore~
+=======
+>>>>>>> 7ba60a111b4bd1f47b94c40341be38323ab84ddf
