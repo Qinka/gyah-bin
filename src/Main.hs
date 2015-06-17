@@ -1,8 +1,14 @@
 module Main where
 
-import GiveYouAHead 
+import GiveYouAHead
 import System.Environment
 import System.IO.Extra
+import Data.Version
+
+
+gyabbin'ver :: Version
+gyabbin'ver = Version { versionBranch = [0,2,2,0], versionTags =[] }
+gyabbinver = showVersion gyabbin'ver
 
 main :: IO()
 main = do
@@ -11,8 +17,8 @@ main = do
         let x = if length args >=1 then args !! 0 else "help"
         if x == "help" then do
                 putStrLn $ unlines [
-                        "\tgyah-bin version 0.2.2.0",
-                        "\tgyah-bin 版本 0.2.2.0",
+                        "\tgyah-bin version " ++ gyabbinver,
+                        "\tgyah-bin 版本 " ++ gyabbinver,
                         "",
                         "\tHomepage https://github.com/Qinka/gyah-bin/",
                         "\tBug report: https://github.com/Qinka/gyah-bin/issues",
