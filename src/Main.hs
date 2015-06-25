@@ -7,7 +7,7 @@ import Data.Version
 
 
 gyabbin'ver :: Version
-gyabbin'ver = Version { versionBranch = [0,2,2,0], versionTags =[] }
+gyabbin'ver = Version { versionBranch = [0,2,2,3], versionTags =[] }
 gyabbinver = showVersion gyabbin'ver
 
 main :: IO()
@@ -24,6 +24,9 @@ main = do
                         "\tBug report: https://github.com/Qinka/gyah-bin/issues",
                         "\t主页  https://github.com/Qinka/gyah-bin/",
                         "\tBUG报告  https://github.com/Qinka/gyah-bin/issues",
+                        "",
+                        "Uploaded to Hackage",
+                        "已上传到 Hackage",
                         ""
                     ]
             else putStr ""
