@@ -2,15 +2,15 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                gyah-bin
-version:             0.2.2.0
--- synopsis:
--- description:
+version:             0.2.2.1
+synopsis:            A binary version of GiveYouAHead
+description:         GiveYouAHead  binary
 license:             MIT
 license-file:        LICENSE
 author:              Qinka
 maintainer:          qinka@live.com
 -- copyright:
--- category:
+category:            GiveYouAHead
 build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
